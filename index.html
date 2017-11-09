@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<!--- Navbar: h2 element .content, scrolls over the navbar
+h2 element in .content needs to be centered inside of the bgmission container
+Make the bgmission container a flex container with display flex and use alignment to center the h2
+- check width of the items on the second row of the ‘tea of the month’ section, they should be closer together
+
+
+- Navbar: h2 element .content, scrolls over the navbar
+h2 element in .content needs to be centered inside of the bgmission container
+Make the bgmission container a flex container with display flex and use alignment to center the h2
+- check width of the items on the second row of the ‘tea of the month’ section, they should be closer together
+
+-->
+
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Tea cozy</title>
+    <link href='css/style.css' rel='stylesheet' />
+  </head>
+  <body>
+    <!-- <header class="flex-container"> --><header>
+      <img src="images/img-tea-cozy-logo.png" class="left-logo">
+      <nav>
+              <span><a href="#store">Mission </span>
+              <span><a href="#store">Featured Tea</a></span>
+              <span><a href="#location">Locations</a></span>
+              <span><a href="#0">Our Mission</a></span>
+      </nav><!-- nav and header -->
+    </header>
+<!-- <div id="flex-container"> -->
+<main>
+  <div class="bgmission">
+      <div class="content">
+        <h2 class="highlight">Our Mission</h2>
+          <h4 class="highlight">Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+      </div>
+    </div>
+</div>
+<!-- store -->
+<div id="store">
+      <h2>Tea of the Month</h2>
+          <h4>What's Steeping at The Tea Cozy?</h4>
+            <div class="flex-container items">
+                <div class="items">
+                  <img src="images/img-berryblitz.jpg" height="200px"  width="300px">
+                    <p>Fall Berry Blitz Tea</p>
+                </div>
+                <div class="items">
+                  <img src="images/img-spiced-rum.jpg" height="200px"  width="300px"  />
+                    <p>Spiced Rum Tea</p>
+              </div>
+        <div class="items">
+          <img src="images/img-donut.jpg" height="200px"  width="300px" />
+          <p>Seasonal Donuts</p>
+        </div>
+        <div class="items">
+          <img src="images/img-myrtle-ave.jpg" height="200px"  width="300px"  />
+          <p>Myrtle Ave Tea</p>
+        </div>
+        <div class="items">
+          <img src="images/img-bedford-bizarre.jpg" height="200px"  width="300px"  />
+          <p>Bedford Bizarre Tea</p>
+        </div>
+      </div>
+    </div>
+    <!--
+      <div class="holder"><!-- holder for two div tag -->
+
+      <!--
+    <h2>Tea of the Month</h2>
+        <h4>What's Steeping at The Tea </h4>
+      </div>
+-->
+
+    <div class="flex-container locations">
+      <div class="background-location">
+        <h2 class="titlelocation">locations</h2>
+        <div class="locationinfo">
+          <h3 class="title">Downtown</h3>
+            <p>384 West 4th St</p>
+            <p>Suite 108</p>
+            <p>Portland, Maine</p>
+        </div><!--locations tag closing -->
+        <div class="locationinfo">
+          <h3 class="title">East Bayside</h3>
+          <p>3433 Phisherman's Avenue</p>
+          <p>(Northwest Corner)</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="locationinfo">
+          <h3 class="title">Oakdale</h3>
+          <p>515 Crescent Avenue</p>
+          <p>Second Floor</p>
+          <p>Portland, Maine</p>
+        </div>
+      </div><!-- cup of tea backgorund -->
+      </div>
+      </div>
+    </div><!-- end of lactions tag -->
+</main>
+<footer>
+    <div class="contact">
+      <h2>The Tea Cozy</h2>
+      <h5>contact@theteacozy.com</h5>
+      <h5>917-555-8904</h5>
+    </div>
+    <h5 class="align">copyright The Tea Cozy 2017</h5>
+  </footer>
+  </body>
+</html>
